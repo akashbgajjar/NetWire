@@ -1,0 +1,67 @@
+<RelativeLayout 
+	android:id="@+id/FileInfoRelativeLayout01" 
+	android:layout_width="300dip" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/gradient_bg"
+	>
+	<RelativeLayout 
+	android:id="@+id/FileInfoRelativeLayout02" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:paddingLeft="20dip"
+	android:paddingRight="20dip">
+	
+	<TextView android:text="File Name : " 
+		android:id="@+id/FileName" 
+		android:layout_width="100dip" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView android:id="@+id/FileNameValue" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="100dip"
+		>
+	</TextView>
+	
+	<TextView android:text="File Type : " 
+		android:id="@+id/FileType" 
+		android:layout_width="100dip" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip">
+	</TextView>
+	
+	<TextView android:id="@+id/FileTypeValue" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="100dip"
+		android:layout_marginTop="20dip"
+		>
+	</TextView>
+	
+	<TextView android:text="File Size : " 
+		android:id="@+id/FileSize" 
+		android:layout_width="100dip" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dip">
+	</TextView>
+	
+	<TextView android:id="@+id/FileSizeValue" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="100dip"
+		android:layout_marginTop="40dip"
+		>
+	</TextView>
+	
+	</RelativeLayout>
+	
+	<Button android:id="@+id/FileInfoButtonOk" 
+		android:layout_width="100dip" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="90dip"
+		android:text="@string/ok" />
+		
+</RelativeLayout>
